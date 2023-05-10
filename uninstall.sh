@@ -1,6 +1,6 @@
 #!/bin/sh
 
-printf 'y'| sudo apt remove maltego
+printf 'y'|sudo apt remove maltego
 printf 'y' |sudo apt remove msfpc
 printf 'y' |sudo apt remove set
 printf 'y' |sudo apt remove faraday 
@@ -140,5 +140,5 @@ printf 'y' |sudo apt update
 #dpkg -l | grep '^rc' | awk '{print $2}' | sudo xargs dpkg --purge
 
 echo "The script has been successfully executed"
-echo "Tools has been removed/uninstalled"
+echo "All tools have been removed & uninstalled"
 echo "Thanks for using this script"
