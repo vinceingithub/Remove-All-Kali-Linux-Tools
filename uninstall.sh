@@ -1,6 +1,6 @@
 #!/bin/sh
 
-printf 'y'|sudo apt remove maltego
+printf 'y' |sudo apt remove maltego
 printf 'y' |sudo apt remove msfpc
 printf 'y' |sudo apt remove set
 printf 'y' |sudo apt remove faraday 
@@ -132,6 +132,12 @@ printf 'y' |sudo apt remove zaproxy
 printf 'y' |sudo apt remove freerdp2-x11
 printf 'y' |sudo apt remove scalpel
 printf 'y' |sudo apt remove spiderfoot
+printf 'y' |sudo apt remove ffuf
+printf 'y' |sudo apt remove crackmapexec
+printf 'y' |sudo apt remove minicom
+printf 'y' |sudo apt remove evil-winrm
+printf 'y' |sudo apt remove impacket
+printf 'y' |sudo apt remove powershell-empire
 printf 'y' |sudo apt autoclean 
 printf 'y' |sudo apt autoremove
 printf 'y' |sudo apt update 
